@@ -31,7 +31,7 @@
         //3，订阅
         observable.subscribe(observer);     
 ## RxJava 2.x 的简单使用
-       //2，create a flowable
+       //1，create a flowable
         Flowable<String> flowable = Flowable.create(new FlowableOnSubscribe<String>() {
             @Override
             public void subscribe(FlowableEmitter<String> e) throws Exception {
