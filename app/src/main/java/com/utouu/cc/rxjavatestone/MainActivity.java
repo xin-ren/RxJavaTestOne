@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         //RxJava 1.x 简单使用
 //        toSimpleUseRxJavaOne();
+
         //RxJava 2.x 简单使用
         toSimpleUseRxJavaTwo();
         //RxJava 2.x 简洁编写
